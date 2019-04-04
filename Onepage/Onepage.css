@@ -1,0 +1,118 @@
+#container{
+display: flex;
+background-image: url("imgs/Flower.jpg");
+background-position: center;
+width: 100%;
+height:1080px;
+
+}
+header{
+  display: flex;
+  background-color: white;
+  background-color: green;
+  width: 100%;
+  color: white;
+  height: 60px;
+  margin-left: 5
+}
+
+nav{
+
+}
+
+h1{
+  margin: 0%;
+  font-size: 33px;
+}
+
+
+
+.tjo{
+  background-image: url("imgs/Flower.jpg");
+  width: 100%;
+  height: 1080px;
+
+
+}
+
+.tjobre{
+  background-image: url("imgs/Flower.jpg");
+  width: 100%;
+  height: 1080px;
+
+}
+
+
+}
+
+#button{
+  width: 55px;
+}
+
+#buttonUP{
+  width: 55px;
+}
+#buttonDOWN{
+  width: 55px;
+}
+
+nav{
+  position: fixed;
+  width: 0%;
+  height: 40px;
+}
+#wrapper{
+  display: flex;
+  margin-top: 0%;
+  margin: 0%;
+  margin-bottom: 10%;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: 5%;
+
+}
+#main2{
+    display: block;
+    font-size: 10px;
+    color: white;
+    padding:0.5%;
+    margin: 5%;
+    background-color: green;
+    width: 90%;
+    height:700px;
+    opacity: 0.85;
+    text-shadow: -1.5px -1.5px black;
+
+}
+#main3{
+
+  margin: 5%;
+  padding:0.5%;
+  background-color: green;
+  opacity: 0.85;
+  width: 90%;
+  height: 700px;
+}
+#main4{
+  margin-left: 5%;
+  margin-top: 0%;
+  padding:0%;
+  background-color: green;
+  opacity: 0.8;
+  width: 90%;
+  height: 2000px;
+}
+
+body{
+  margin: 0%;
+}
+
+@media screen and (max-width: 950px){
+  #wrapper{
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+}
