@@ -15,7 +15,7 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1f/GNOME_
 .box{
 
 height: 500px;
-width: 800px;
+width: 610px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 2%;
@@ -56,5 +56,5 @@ footer{
 footer a{
   text-decoration: none;
   color: white;
-  
+
 }
